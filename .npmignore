@@ -1,0 +1,47 @@
+# Source files (only publish dist)
+credentials/
+nodes/
+test/
+scripts/
+
+# Config files
+.eslintrc.js
+.prettierrc
+jest.config.js
+tsconfig.json
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+
+# Environment files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Documentation source (README stays)
+docs/
+
+# Examples that aren't in dist
+examples/
